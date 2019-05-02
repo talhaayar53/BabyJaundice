@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C18E544E4D69465F428862C /* Pods_BabyJaundice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC994BFF340D6ED256139DFE /* Pods_BabyJaundice.framework */; };
+		AB6FE6BC21707A820075479D /* BabyJaundice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE6BA21707A820075479D /* BabyJaundice.xcdatamodeld */; };
+		AB6FE6BE2170835C0075479D /* LeftSideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE6BD2170835C0075479D /* LeftSideTableViewController.swift */; };
+		AB6FE6C021708FEB0075479D /* SideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE6BF21708FEB0075479D /* SideTableViewCell.swift */; };
+		AB6FE6C2217094FF0075479D /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE6C1217094FF0075479D /* Results.swift */; };
 		ABFCC5A92170761400E65920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC5A82170761400E65920 /* AppDelegate.swift */; };
-		ABFCC5AB2170761400E65920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC5AA2170761400E65920 /* ViewController.swift */; };
 		ABFCC5AE2170761400E65920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFCC5AC2170761400E65920 /* Main.storyboard */; };
-		ABFCC5B12170761400E65920 /* BabyJaundice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC5AF2170761400E65920 /* BabyJaundice.xcdatamodeld */; };
 		ABFCC5B32170761500E65920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFCC5B22170761500E65920 /* Assets.xcassets */; };
 		ABFCC5B62170761500E65920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFCC5B42170761500E65920 /* LaunchScreen.storyboard */; };
+		ABFCC5BF2170768300E65920 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC5BD2170768300E65920 /* HomeViewController.swift */; };
+		ABFCC5C02170768300E65920 /* TreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC5BE2170768300E65920 /* TreatmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB6FE6BB21707A820075479D /* BabyJaundice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyJaundice.xcdatamodel; sourceTree = "<group>"; };
+		AB6FE6BD2170835C0075479D /* LeftSideTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideTableViewController.swift; sourceTree = "<group>"; };
+		AB6FE6BF21708FEB0075479D /* SideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideTableViewCell.swift; sourceTree = "<group>"; };
+		AB6FE6C1217094FF0075479D /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		ABFCC5A52170761400E65920 /* BabyJaundice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyJaundice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFCC5A82170761400E65920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABFCC5AA2170761400E65920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABFCC5AD2170761400E65920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABFCC5B02170761400E65920 /* BabyJaundice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyJaundice.xcdatamodel; sourceTree = "<group>"; };
 		ABFCC5B22170761500E65920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABFCC5B52170761500E65920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFCC5B72170761500E65920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFCC5BD2170768300E65920 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ABFCC5BE2170768300E65920 /* TreatmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentViewController.swift; sourceTree = "<group>"; };
+		BC994BFF340D6ED256139DFE /* Pods_BabyJaundice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyJaundice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A0A4E737BF4C7DDE686271 /* Pods-BabyJaundice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyJaundice.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyJaundice/Pods-BabyJaundice.release.xcconfig"; sourceTree = "<group>"; };
+		EC7B869C7B33E7C4A1D12ACB /* Pods-BabyJaundice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyJaundice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyJaundice/Pods-BabyJaundice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C18E544E4D69465F428862C /* Pods_BabyJaundice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5245DB04D037BEB4DCA78CCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC7B869C7B33E7C4A1D12ACB /* Pods-BabyJaundice.debug.xcconfig */,
+				C7A0A4E737BF4C7DDE686271 /* Pods-BabyJaundice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ABFCC59C2170761400E65920 = {
 			isa = PBXGroup;
 			children = (
 				ABFCC5A72170761400E65920 /* BabyJaundice */,
 				ABFCC5A62170761400E65920 /* Products */,
+				5245DB04D037BEB4DCA78CCB /* Pods */,
+				B9D76610A097A26DA7A3877C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,27 @@
 		ABFCC5A72170761400E65920 /* BabyJaundice */ = {
 			isa = PBXGroup;
 			children = (
+				ABFCC5BD2170768300E65920 /* HomeViewController.swift */,
+				AB6FE6C1217094FF0075479D /* Results.swift */,
+				ABFCC5BE2170768300E65920 /* TreatmentViewController.swift */,
+				AB6FE6BD2170835C0075479D /* LeftSideTableViewController.swift */,
 				ABFCC5A82170761400E65920 /* AppDelegate.swift */,
-				ABFCC5AA2170761400E65920 /* ViewController.swift */,
 				ABFCC5AC2170761400E65920 /* Main.storyboard */,
+				AB6FE6BF21708FEB0075479D /* SideTableViewCell.swift */,
 				ABFCC5B22170761500E65920 /* Assets.xcassets */,
 				ABFCC5B42170761500E65920 /* LaunchScreen.storyboard */,
 				ABFCC5B72170761500E65920 /* Info.plist */,
-				ABFCC5AF2170761400E65920 /* BabyJaundice.xcdatamodeld */,
+				AB6FE6BA21707A820075479D /* BabyJaundice.xcdatamodeld */,
 			);
 			path = BabyJaundice;
+			sourceTree = "<group>";
+		};
+		B9D76610A097A26DA7A3877C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC994BFF340D6ED256139DFE /* Pods_BabyJaundice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABFCC5BA2170761500E65920 /* Build configuration list for PBXNativeTarget "BabyJaundice" */;
 			buildPhases = (
+				62A1802EE20B5AA50D7306B1 /* [CP] Check Pods Manifest.lock */,
 				ABFCC5A12170761400E65920 /* Sources */,
 				ABFCC5A22170761400E65920 /* Frameworks */,
 				ABFCC5A32170761400E65920 /* Resources */,
+				87103B7A1567320B965A3723 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +171,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62A1802EE20B5AA50D7306B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyJaundice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87103B7A1567320B965A3723 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabyJaundice/Pods-BabyJaundice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlatUIKit/FlatUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlatUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyJaundice/Pods-BabyJaundice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABFCC5A12170761400E65920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFCC5AB2170761400E65920 /* ViewController.swift in Sources */,
-				ABFCC5B12170761400E65920 /* BabyJaundice.xcdatamodeld in Sources */,
+				AB6FE6C021708FEB0075479D /* SideTableViewCell.swift in Sources */,
 				ABFCC5A92170761400E65920 /* AppDelegate.swift in Sources */,
+				AB6FE6C2217094FF0075479D /* Results.swift in Sources */,
+				ABFCC5BF2170768300E65920 /* HomeViewController.swift in Sources */,
+				AB6FE6BE2170835C0075479D /* LeftSideTableViewController.swift in Sources */,
+				AB6FE6BC21707A820075479D /* BabyJaundice.xcdatamodeld in Sources */,
+				ABFCC5C02170768300E65920 /* TreatmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +377,7 @@
 		};
 		ABFCC5BB2170761500E65920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7B869C7B33E7C4A1D12ACB /* Pods-BabyJaundice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +396,7 @@
 		};
 		ABFCC5BC2170761500E65920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A0A4E737BF4C7DDE686271 /* Pods-BabyJaundice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,12 +437,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ABFCC5AF2170761400E65920 /* BabyJaundice.xcdatamodeld */ = {
+		AB6FE6BA21707A820075479D /* BabyJaundice.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				ABFCC5B02170761400E65920 /* BabyJaundice.xcdatamodel */,
+				AB6FE6BB21707A820075479D /* BabyJaundice.xcdatamodel */,
 			);
-			currentVersion = ABFCC5B02170761400E65920 /* BabyJaundice.xcdatamodel */;
+			currentVersion = AB6FE6BB21707A820075479D /* BabyJaundice.xcdatamodel */;
 			path = BabyJaundice.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -1,0 +1,24 @@
+PODS:
+  - FlatUIKit (1.6.2)
+  - LGSideMenuController (2.1.1)
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - FlatUIKit
+  - LGSideMenuController
+  - SCLAlertView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FlatUIKit
+    - LGSideMenuController
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: 60091e7fa000dcfada3614a4f9f2f14b6ed17787
+
+COCOAPODS: 1.5.3
